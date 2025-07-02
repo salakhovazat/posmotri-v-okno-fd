@@ -55,6 +55,7 @@ ol {
 
 .content__details {
   width: 100%;
+  padding-bottom: 90px;
 }
 
 .content__list-container {
@@ -106,7 +107,7 @@ ol {
   font-size: 75px;
   text-transform: uppercase;
   line-height: 94%;
-  font-family: Oswald;
+  font-family: 'Oswald', sans-serif;
   padding-bottom: 17px;
 }
 
@@ -121,7 +122,7 @@ ol {
 
 .content__video-card-title {
   text-transform: uppercase;
-  font-family: Oswald;
+  font-family: 'Oswald', sans-serif;
   font-size: 30px;
   font-weight: 700;
   overflow: hidden;
@@ -160,7 +161,7 @@ ol {
   flex-direction: row;
   align-items: center;
   width: fit-content;
-  gap: 1.5px;
+  gap: 2.5px;
   cursor: pointer;
 }
 
@@ -172,6 +173,7 @@ ol {
   width: 225px;
   height: 27px;
   color: #fff;
+  font-family: inherit;
 }
 
 .search-form__textfield::placeholder {
@@ -218,7 +220,7 @@ ol {
   opacity: 1;
 }
 
-.search-form__checkbox-list .search-form__label:hover {
+.search-form__label:hover .search-form__label-text {
   text-decoration: underline 1px #fff;
 }
 
@@ -229,6 +231,7 @@ ol {
   color: #fff;
   font-weight: 700;
   cursor: pointer;
+  font-family: inherit;
 }
 
 .button:hover {
@@ -272,19 +275,19 @@ ol {
   cursor: pointer;
 }
 
-.content__list-item:active {
+.content__card-link:active {
   background-color: #545050;
 }
 
-.content__list-item:hover {
+.content__card-link:hover {
   text-decoration: underline;
 }
 
-.content__list-item:focus {
+.content__card-link:focus {
   outline: none;
 }
 
-.content__list-item:focus-visible {
+.content__card-link:focus-visible {
   outline: solid 1px #fff;
 }
 
