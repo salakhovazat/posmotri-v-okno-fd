@@ -108,7 +108,7 @@ ol {
   line-height: 94%;
   font-family: Oswald;
   padding-bottom: 17px;
-} 
+}
 
 .content__accent {
   color: #545050;
@@ -161,7 +161,7 @@ ol {
   align-items: center;
   width: fit-content;
   gap: 1.5px;
-  cursor: pointer
+  cursor: pointer;
 }
 
 .search-form__textfield {
@@ -228,7 +228,7 @@ ol {
   font-size: 18px;
   color: #fff;
   font-weight: 700;
-  cursor: pointer
+  cursor: pointer;
 }
 
 .button:hover {
@@ -252,7 +252,6 @@ ol {
   width: 194px;
   height: 34px;
   align-self: self-end;
-  
 }
 
 .more-button {
@@ -270,7 +269,7 @@ ol {
 }
 
 .content__list-item {
-  cursor: pointer
+  cursor: pointer;
 }
 
 .content__list-item:active {
